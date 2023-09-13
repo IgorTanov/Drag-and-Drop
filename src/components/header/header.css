@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: bisque;
+}
+.header-div{
+    border:1px solid black;
+    padding: 2px 2px 2px 2px;
+    cursor: pointer;
+    
+}
