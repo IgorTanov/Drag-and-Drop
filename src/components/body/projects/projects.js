@@ -27,7 +27,7 @@ const Projects = () => {
             >
                 <div className="card-content">
                     {"order " + card.order}<br />
-                    {card.items[0].tittle}
+                    
 
                 </div><br />
 
