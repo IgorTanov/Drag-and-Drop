@@ -1,14 +1,14 @@
-body{
-    height: 100vh;
-    margin: 0 auto;
-    box-sizing:border-box
+body {
+  height: 100vh;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-.wraper{
-    min-height: 100%;
-    display: flex;
-    flex-direction: column-reverse;
+.wraper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
 }
-*{
-    text-decoration: none;
+* {
+  text-decoration: none;
 }

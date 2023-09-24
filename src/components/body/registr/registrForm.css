@@ -1,19 +1,16 @@
-
-.registr-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
+.registr-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
 }
-.msg-error{
-   
-    word-wrap: break-word;
-    width: 100%;
-    height: 20px;
-
+.msg-error {
+  word-wrap: break-word;
+  width: 100%;
+  height: 20px;
 }
-.form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

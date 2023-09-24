@@ -1,16 +1,28 @@
-.projects{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.table{
-    width: 200px;
-    height: 400px;
-    border: 2px solid grey;
-    border-radius: 10px;
-    cursor: grab;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.table {
+  width: 200px;
+  height: 400px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  cursor: grab;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
+
+.card-content {
+  width: 100%;
+}
+
+.task {
+  width: 100%;
+  border: solid 3px lightseagreen;
+  margin-bottom: 2px;
+}
+

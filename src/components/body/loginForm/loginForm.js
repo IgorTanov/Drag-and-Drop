@@ -2,11 +2,11 @@ import { useState } from "react"
 import loginUserFeatch from "../../../srevices/loginFeatch"
 
 const LoginForm = () => {
-    const [ mail, setMail ] = useState("")
-    const [ password, setPassword ] = useState("")
+    const [mail, setMail] = useState("")
+    const [password, setPassword] = useState("")
 
     const sub = () => {
-        loginUserFeatch(mail,password)
+        loginUserFeatch(mail, password)
     }
 
     const getLogin = (e) => {
@@ -16,7 +16,7 @@ const LoginForm = () => {
 
     const getPassword = (e) => {
         setPassword(e.target.value)
-        
+
     }
 
     return (
@@ -25,16 +25,16 @@ const LoginForm = () => {
                 <span>Enter your login</span>
                 <input type="mail" name="mail" onChange={getLogin} value={mail}></input>
                 <span className="msg-error"></span>
-                <br/>
+                <br />
             </div>
-              
+
             <div className="registr-div">
-              <span>Enter your password</span>
-              <input type="password" name="password" onChange={getPassword} value={password}></input>
-              <span className="msg-error"></span>
-              <br/>
+                <span>Enter your password</span>
+                <input type="password" name="password" onChange={getPassword} value={password}></input>
+                <span className="msg-error"></span>
+                <br />
             </div>
-              
+
             <input type="button" value="Log in" onClick={sub} ></input>
             {/* <input type="submit"></input> */}
         </form>
